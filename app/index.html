@@ -1,12 +1,16 @@
 <!doctype html>
-<html lang="en" ng-app">
+<html lang="en" ng-app="firstapp">
 <head>
   <meta charset="utf-8">
   <title>My AngularJS Pro</title>
   </head>
-<body>
-  <p>Hello! World!</p>
+<body ng-controller="bodycontroller">
+  <p>Hello! {{name}}</p>
   <div ng-view></div>
-
+  
+  
+  
+  <script src="http://code.angularjs.org/1.2.0-rc.3/angular.js"></script>
+  <script src="js/controllers.js"></script>
 </body>
 </html>
